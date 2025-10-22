@@ -186,15 +186,6 @@ const PageWrapperMobile = ({ className, children }: WrapperMobile) => {
               onClick={() => {
                 setSheetOpen(false);
               }}
-              href="/growing-families"
-              className="text-[#3e4c5f] font-light text-2xl"
-            >
-              GROWING Families
-            </Link>
-            <Link
-              onClick={() => {
-                setSheetOpen(false);
-              }}
               href="/board-members"
               className="text-[#3e4c5f] font-light text-2xl"
             >
@@ -205,10 +196,7 @@ const PageWrapperMobile = ({ className, children }: WrapperMobile) => {
               className="bg-[#779a46] border-transparent w-[200px] py-6 px-4 rounded-lg shadow-xl text-white font-semibold text-xl"
               asChild
             >
-              <Link
-                href="https://cbo.io/bidapp/index.php?slug=gta"
-                target="_blank"
-              >
+              <Link href="https://cbo.io/app/public/bidapp/aci" target="_blank">
                 View Auction
               </Link>
             </Button>
@@ -217,7 +205,10 @@ const PageWrapperMobile = ({ className, children }: WrapperMobile) => {
               className="bg-[#779a46] border-transparent w-[200px] py-6 px-4 rounded-lg shadow-xl text-white font-semibold text-xl"
               asChild
             >
-              <Link href="https://cbo.io/d/donate.php?slug=gta" target="_blank">
+              <Link
+                href="https://cbo.io/app/public/bidapp/aci/donate"
+                target="_blank"
+              >
                 Donate Here
               </Link>
             </Button>
@@ -318,10 +309,7 @@ const PageWrapperMobile = ({ className, children }: WrapperMobile) => {
             className="bg-[#779a46] hover:bg-[#779a46] text-white"
             asChild
           >
-            <Link
-              href="https://cbo.io/bidapp/index.php?slug=gta"
-              target="_blank"
-            >
+            <Link href="https://cbo.io/app/public/bidapp/aci" target="_blank">
               Visit the Auction Site
             </Link>
           </Button>
@@ -334,7 +322,10 @@ const PageWrapperMobile = ({ className, children }: WrapperMobile) => {
             className="bg-[#779a46] hover:bg-[#779a46] text-white"
             asChild
           >
-            <Link href="https://cbo.io/d/donate.php?slug=gta" target="_blank">
+            <Link
+              href="https://cbo.io/app/public/bidapp/aci/donate"
+              target="_blank"
+            >
               Donate Here!
             </Link>
           </Button>
