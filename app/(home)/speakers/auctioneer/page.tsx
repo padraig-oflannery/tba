@@ -32,8 +32,9 @@ const IndividualSpeakerPage = () => {
         </span>
         <span className="text-white/80 font-base text-lg text-center">
           {" "}
-          "Captivating", "riveting", "nuanced"--these are just a few of the
-          words that have never been used to describe Doug's stage performances.
+          &quot;Captivating&quot;, &quot;riveting&quot;,
+          &quot;nuanced&quot;--these are just a few of the words that have never
+          been used to describe Doug's stage performances.
         </span>
         <span className="text-white/80 font-base text-lg text-center">
           {" "}
