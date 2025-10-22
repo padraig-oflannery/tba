@@ -3,6 +3,9 @@ import { Award, Building2, Users, Users2 } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
+// TO-DO: Program Page Info
+// TO-DO: Award Recipients Page Create
+
 const Page = () => {
   return (
     <div className="w-full flex flex-col items-center justify-start min-h-screen py-8 gap-12 bg-[#779a46] ">
@@ -13,19 +16,15 @@ const Page = () => {
       </div>
       <div className="flex items-center justify-center gap-2 flex-col px-4">
         <span className="text-white/80 font-base text-xl text-center">
-          Thank you for joining us for the{" "}
-          <span className="font-bold">First</span> Growing Through Adoption
-          event!
+          We truly value your attendance at the{" "}
+          <span className="font-bold">7th Annual Touched by Adoption</span>{" "}
+          Event.
         </span>
         <span className="text-white/80 font-base text-xl text-center mt-6">
-          Tonight, we celebrate the beauty of adoption—the way it grows families
-          and transforms lives. Together, we raise funds to strengthen both our
-          internal efforts and community programs, helping ease the financial
-          journey for Wisconsin families hoping to welcome a child home
-        </span>
-        <span className="text-white/80 font-base text-xl text-center mt-6">
-          This exciting evening includes a delightful dinner, cash bar, wine
-          pull and stage program, plus silent & live auctions.
+          Your partnership is essential to us and makes a significant
+          contribution to our mission. We are deeply grateful for your support
+          and generosity, as together we are making a meaningful impact on the
+          lives of those impacted by adoption.
         </span>
       </div>
       <div className="w-[80px] h-[1px] bg-white/30" />

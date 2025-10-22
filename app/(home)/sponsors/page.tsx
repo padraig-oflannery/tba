@@ -1,7 +1,10 @@
-import { ArrowLeft } from "lucide-react";
+import { ArrowLeft, Users2 } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+
+// TO-DO: Where do we put Catholic Financial Life?
+// TO-DO: In Kind Review is it okay?
 
 const BoardMembersPage = () => {
   return (
@@ -18,7 +21,7 @@ const BoardMembersPage = () => {
       </div>
       <div className="w-[80px] h-[1px] bg-white/30" />
       <div className="grid grid-cols-1 px-4 gap-6">
-        {/* <div className="flex flex-col gap-4 items-center justify-center">
+        <div className="flex flex-col gap-4 items-center justify-center">
           <div className="w-[240px] h-[240px] bg-white relative shadow-xl rounded-full overflow-hidden flex items-center justify-center">
             <Image
               src="/images/sponsors/kass.jpg"
@@ -36,8 +39,8 @@ const BoardMembersPage = () => {
               Title Sponsor
             </span>
           </div>
-        </div> */}
-        <Link
+        </div>
+        {/* <Link
           href="https://glcminerals.com/"
           target="_blank"
           className="flex flex-col gap-4 items-center justify-center"
@@ -59,16 +62,16 @@ const BoardMembersPage = () => {
               Silver Sponsor
             </span>
           </div>
-        </Link>
+        </Link> */}
       </div>
       <div className="w-[80px] h-[1px] bg-white/30" />
-      {/* <div className="w-full flex items-center justify-center gap-2 flex-col py-6 bg-[#672543]">
+      <div className="w-full flex items-center justify-center gap-2 flex-col py-6 bg-[#672543]">
         <span className="text-white font-base text-3xl text-center">
           Our Gold Sponsors
         </span>
-      </div> */}
-      {/* <div className="w-[80px] h-[1px] bg-white/30" /> */}
-      {/* <div className="grid grid-cols-1 px-4 gap-6">
+      </div>
+      <div className="w-[80px] h-[1px] bg-white/30" />
+      <div className="grid grid-cols-1 px-4 gap-6">
         <Link
           href="https://www.gklaw.com/"
           target="_blank"
@@ -92,15 +95,15 @@ const BoardMembersPage = () => {
             </span>
           </div>
         </Link>
-      </div> */}
-      {/* <div className="w-[80px] h-[1px] bg-white/30" /> */}
+      </div>
+      <div className="w-[80px] h-[1px] bg-white/30" />
       <div className="w-full flex items-center justify-center gap-2 flex-col py-6 bg-[#672543]">
         <span className="text-white font-base text-3xl text-center">
           Our Silver Sponsors
         </span>
       </div>
       <div className="w-[80px] h-[1px] bg-white/30" />
-      <div className="flex flex-col gap-4 items-center justify-center">
+      {/* <div className="flex flex-col gap-4 items-center justify-center">
         <div className="w-[240px] h-[240px] bg-white relative shadow-xl rounded-full overflow-hidden flex items-center justify-center">
           <Image
             src="/images/sponsors/chuck_barbara_johnson_rm.png"
@@ -118,9 +121,9 @@ const BoardMembersPage = () => {
             Silver Sponsor
           </span>
         </div>
-      </div>
+      </div> */}
       <div className="grid grid-cols-1 px-4 gap-6">
-        <Link
+        {/* <Link
           href="https://baycareclinic.com/about-us/baycare-clinic-foundation/"
           target="_blank"
           className="flex flex-col gap-4 items-center justify-center"
@@ -142,8 +145,8 @@ const BoardMembersPage = () => {
               Silver Sponsor
             </span>
           </div>
-        </Link>
-        <Link
+        </Link> */}
+        {/* <Link
           href="https://www.nicoletbank.com/"
           target="_blank"
           className="flex flex-col gap-4 items-center justify-center"
@@ -165,8 +168,8 @@ const BoardMembersPage = () => {
               Silver Sponsor
             </span>
           </div>
-        </Link>
-        <Link
+        </Link> */}
+        {/* <Link
           href="https://www.wipfli.com/"
           target="_blank"
           className="flex flex-col gap-4 items-center justify-center"
@@ -188,8 +191,8 @@ const BoardMembersPage = () => {
               Silver Sponsor
             </span>
           </div>
-        </Link>
-        <Link
+        </Link> */}
+        {/* <Link
           href="https://mcdonaldcompanies.com/"
           target="_blank"
           className="flex flex-col gap-4 items-center justify-center"
@@ -211,8 +214,8 @@ const BoardMembersPage = () => {
               Silver Sponsor
             </span>
           </div>
-        </Link>
-        <Link
+        </Link> */}
+        {/* <Link
           href="https://aloft-hotels.marriott.com/"
           target="_blank"
           className="flex flex-col gap-4 items-center justify-center"
@@ -234,17 +237,40 @@ const BoardMembersPage = () => {
               Silver Sponsor
             </span>
           </div>
+        </Link> */}
+        <Link
+          href="https://www.ghnlawyers.com/"
+          target="_blank"
+          className="flex flex-col gap-4 items-center justify-center"
+        >
+          <div className="w-[240px] h-[240px] bg-white relative shadow-xl rounded-full overflow-hidden flex items-center justify-center">
+            <Image
+              src="/images/sponsors/ghn.jpg"
+              alt="Grady, Hayes & Neary, LLC"
+              width={220}
+              height={220}
+              className="object-contain"
+            />
+          </div>
+          <div className="flex flex-col items-center justify-center">
+            <span className="text-white font-base text-2xl select-none text-center">
+              Grady, Hayes & Neary, LLC
+            </span>
+            <span className="text-white/70 italic font-light text-light select-none text-center">
+              Silver Sponsor
+            </span>
+          </div>
         </Link>
       </div>
       <div className="w-[80px] h-[1px] bg-white/30" />
-      {/* <div className="w-full flex items-center justify-center gap-2 flex-col py-6 bg-[#672543]">
+      <div className="w-full flex items-center justify-center gap-2 flex-col py-6 bg-[#672543]">
         <span className="text-white font-base text-3xl text-center">
           Family and Friends
         </span>
-      </div> */}
-      {/* <div className="w-[80px] h-[1px] bg-white/30" /> */}
-      {/* <div className="grid grid-cols-1 px-4 gap-6">
-        <Link
+      </div>
+      <div className="w-[80px] h-[1px] bg-white/30" />
+      <div className="grid grid-cols-1 px-4 gap-6">
+        {/* <Link
           href="https://dewittllp.com/"
           target="_blank"
           className="flex flex-col gap-4 items-center justify-center"
@@ -266,8 +292,8 @@ const BoardMembersPage = () => {
               Family and Friends
             </span>
           </div>
-        </Link>
-        <Link
+        </Link> */}
+        {/* <Link
           href="https://www.plannedparenthood.org/planned-parenthood-wisconsin"
           target="_blank"
           className="flex flex-col gap-4 items-center justify-center"
@@ -289,7 +315,7 @@ const BoardMembersPage = () => {
               Family and Friends
             </span>
           </div>
-        </Link>
+        </Link> */}
         <div className="flex flex-col gap-4 items-center justify-center">
           <div className="w-[180px] h-[180px] bg-white relative shadow-xl rounded-full overflow-hidden flex items-center justify-center">
             <Users2
@@ -315,7 +341,7 @@ const BoardMembersPage = () => {
           </div>
           <div className="flex flex-col items-center justify-center">
             <span className="text-white font-base text-2xl select-none text-center">
-              Gina Stilp and Patrick Nowak
+              Chuck and Barbara Johnson
             </span>
             <span className="text-white/70 italic font-light text-light select-none text-center">
               Family and Friends
@@ -332,7 +358,7 @@ const BoardMembersPage = () => {
           </div>
           <div className="flex flex-col items-center justify-center">
             <span className="text-white font-base text-2xl select-none text-center">
-              Fox-Simes Family
+              Nick Harris and Tim Harrison
             </span>
             <span className="text-white/70 italic font-light text-light select-none text-center">
               Family and Friends
@@ -340,7 +366,38 @@ const BoardMembersPage = () => {
           </div>
         </div>
       </div>
-      <div className="w-[80px] h-[1px] bg-white/30" /> */}
+      <div className="w-[80px] h-[1px] bg-white/30" />
+      <div className="w-full flex items-center justify-center gap-2 flex-col py-6 bg-[#672543]">
+        <span className="text-white font-base text-3xl text-center">
+          In Kind
+        </span>
+      </div>
+      <div className="w-[80px] h-[1px] bg-white/30" />
+      <div className="grid grid-cols-1 px-4 gap-6">
+        <Link
+          href="https://mindpoollive.com/"
+          target="_blank"
+          className="flex flex-col gap-4 items-center justify-center"
+        >
+          <div className="w-[180px] h-[180px] bg-white relative shadow-xl rounded-full overflow-hidden flex items-center justify-center">
+            <Image
+              src="/images/sponsors/mindpool.jpg"
+              alt="Mind Pool Cover"
+              width={100}
+              height={100}
+              className="object-contain"
+            />
+          </div>
+          <div className="flex flex-col items-center justify-center">
+            <span className="text-white font-base text-2xl select-none text-center">
+              Mind Pool
+            </span>
+            <span className="text-white/70 italic font-light text-light select-none text-center">
+              In Kind
+            </span>
+          </div>
+        </Link>
+      </div>
       {/* <div className="w-full flex items-center justify-center gap-2 flex-col py-6 bg-[#672543]">
         <span className="text-white font-base text-3xl text-center">
           Our Notable Donors

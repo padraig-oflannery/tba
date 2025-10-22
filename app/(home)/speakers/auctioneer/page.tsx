@@ -3,7 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-// TO-DO: Get Mary Smith Bio created
+// TO-DO: Get BIO
+// TO-DO: Change Names and Photos
 
 const IndividualSpeakerPage = () => {
   return (
@@ -11,39 +12,34 @@ const IndividualSpeakerPage = () => {
       <div className="h-[40px] w-full" />
       <div className="w-[280px] h-[350px] flex items-center relative justify-center shadow-xl rounded-lg overflow-hidden">
         <Image
-          src="/images/speakers/emcee/cover.jpeg"
-          alt="Emcee Cover"
+          src="/images/speakers/auctioneer/cover.png"
+          alt="Auctioneer Cover"
           fill
           className="object-cover"
         />
       </div>
       <div className="flex items-center justify-center gap-4 flex-col px-4 pt-10">
         <span className="text-white font-bold text-3xl text-center">
-          Mary Stoker Smith
+          Doug Jarecki
         </span>
         <span className="text-white/70 font-base italic text-xl text-center">
-          2025 Emcee
+          2025 Auctioneer
         </span>
         <div className="bg-white/30 h-[1px] w-[80px]" />
         <span className="text-white/80 font-base text-lg text-center">
-          Randy “Shotgun” Shannon is the lively host of Y100 Green Bay&apos;s
-          popular morning show, Shotgun & Charli.
+          Doug is a local actor and playwright who has appeared on stages
+          throughout southeastern Wisconsin for the last 25 years.
         </span>
         <span className="text-white/80 font-base text-lg text-center">
-          A proud Wisconsin native, Randy brings over 40 years of radio
-          experience to the airwaves. Known for his booming voice and big heart,
-          he&apos;s been deeply involved with many charitable organizations
-          throughout his career.
+          {" "}
+          "Captivating", "riveting", "nuanced"--these are just a few of the
+          words that have never been used to describe Doug's stage performances.
         </span>
         <span className="text-white/80 font-base text-lg text-center">
-          We first connected through his {`"Bake Someone's Day"`} campaign. Our
-          Green Bay office was chosen to receive homemade baked goods made by
-          Randy himself!
-        </span>
-        <span className="text-white/80 font-base text-lg text-center">
-          As we enjoyed his delicious bars, we had the chance to share the
-          mission of ACI—and he&apos;s been a supporter ever since! We thank him
-          for volunteering his time for our cause.
+          {" "}
+          Doug is also the recipient of several fictitious awards, including the
+          Worthington Trophy and Son Of The Year. But most importantly, Doug is
+          thrilled to once again be a part of this fun and exciting event.
         </span>
       </div>
       <div className="bg-white/30 h-[1px] w-[80px]" />
