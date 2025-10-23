@@ -5,6 +5,8 @@ import Link from "next/link";
 
 // TO-DO: Program Page Info
 // TO-DO: Award Recipients Page Create
+// TO-DO: Tiana Page and Link
+// TO-DO: Check Doug's Bio for accuracy
 
 const Page = () => {
   return (

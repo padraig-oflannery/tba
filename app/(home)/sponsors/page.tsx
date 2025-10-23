@@ -5,6 +5,7 @@ import React from "react";
 
 // TO-DO: Where do we put Catholic Financial Life?
 // TO-DO: In Kind Review is it okay?
+// TO-DO: Update the program times
 
 const BoardMembersPage = () => {
   return (
